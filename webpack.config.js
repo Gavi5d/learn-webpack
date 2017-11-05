@@ -44,7 +44,7 @@ module.exports = {
     externals: {
         'jquery': 'jQuery'
     },
-    devtool: "source-map",
+    devtool: "source-map",  // 便于调试，可以将编译后的代码链接到编译前的代码中
     entry: entry,
     plugins: plugins,
     module: {
